@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+}
+p, span{
+    color: hsl(0, 0%, 70%);
+}
+h2, h3, h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+body{
+    background: hsl(218, 28%, 13%);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.connect-img{
+    width: 100%;
+}
+.page{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+/* Navigation Styling */
+.menubar{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 3rem 1rem;
+    margin-bottom: 1rem;
+}
+.logo{
+    margin-left: 1rem;
+}
+.navUL{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navUL li{
+    list-style: none;
+}
+.navUL li a{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+.navUL li a:hover{
+    text-decoration: underline;
+    font-weight:700;
+}
+/* .hamburger{
+    display: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+hamburger:focus{
+    outline: none;
+}
+#hamburger:hover{
+    background: rgb(41, 42, 43);
+} */
+
+/* Header Styling */
+.get-started{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.get-started img{
+    width: 50%;
+}
+.get-started h3{
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    line-height: 2rem;
+}
+.get-started p{
+    padding: 0 5rem;
+}
+.get-started button{
+    background: hsl(198, 60%, 50%);
+    width: 30%;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 20rem;
+    cursor: pointer;
+}
+
+/* Main Section Styling */
+.above {
+    font-size: 14px;
+    width: 90%;
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.above p{
+    padding-left: 1rem;
+    text-align: center;
+}
+.above-col{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.features{
+    margin: 2rem 2.5rem;
+}
+.features img{
+    padding-bottom: 1rem;
+}
+.features h4{
+    padding-bottom: .5rem;
+}
+.middle{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem; 
+    font-size: 14px;
+}
+.mid-content{
+    width: 50%;
+    padding: 1rem 2rem;
+}
+.middle p, a, h3{
+    text-align: left;
+    margin: 0.7rem auto;
+    font-size: 13px;
+}
+#productive h3{
+    padding-right: 10rem;
+    font-size: 25px;
+}
+.middle h3{
+    font-size: 16px;
+}
+.middle a{
+    color: hsl(198, 60%, 50%);
+    text-decoration: none;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid hsl(198, 60%, 50%);
+}
+.middle a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.mid-content a img{
+    transform: translate(0, 20%);
+}
+.mid-content a img:hover{
+    color: #fff;
+}
+
+/* Tetsimonial section */
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2rem auto 1rem;
+}
+.testimonial>div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 1rem -1.7rem;
+}
+.monial{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    background: hsl(219, 30%, 18%);
+    margin: 1rem;
+    font-size: 16px;
+    line-height: 20px;
+}
+.block{
+    position: relative;
+    transform: translate(1rem, -20%);
+    z-index: -1;
+}
+.testifier{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.testifier div{
+    padding-left: 10px;
+    margin-top: -10px;
+    line-height: 5px;
+}
+.testimonial img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* Subscribe section */
+.subscribe{
+    position: relative;
+    transform: translate(0%, 68%);
+    display: flex;
+    flex-direction: column;
+    background: hsl(217, 28%, 15%);
+    padding: 3rem 3rem 1rem;
+    margin: 0 auto;
+    width: 65%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px rgba(6, 6, 6, 0.226);
+}
+.subscribe h2{
+    font-size: 25px;
+}
+.subscribe p{
+    padding: 1rem;
+}
+.subscribe .input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 1rem auto;
+}
+.email #helpId{
+    display: none;
+    color: hsl(0, 100%, 63%);
+}
+.subscribe button, .email{
+    background: hsl(198, 60%, 50%);
+    width: 100%;
+    text-transform: capitalize;
+    /* margin: 1.5rem auto; */
+    padding: .5rem;
+    border: none;
+    border-radius: 10rem;
+}
+.subscribe .email{
+    background: #fff;
+    width: 100%;
+    outline: none;
+    color: hsla(0, 1%, 31%, 0.962);
+}
+.subscribe button{
+    width: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+button:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+/* Footer Styling */
+footer{
+    width: 100%;
+    background: hsl(216, 53%, 9%);
+    padding: 10rem 3rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+footer .logo{
+    margin: 2rem 0;
+}
+footer .content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2rem 2rem 2rem 0;
+
+}
+footer .content>div{
+    margin-right: 2rem;
+}
+.content .location{
+    width: 38%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.location p{
+    padding: 0 0 0 1.5rem;
+    font-size: 14px;
+}
+.content .tel, .content .about, .content .contact, .content .social {
+    width: 16.25%;
+
+}
+.tel>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tel p{
+    padding: .5rem 1.5rem;
+}
+.about li, .contact li{
+    list-style-type: none;
+    padding: 10px 20px 10px 10px;
+}
+.content a{
+    text-decoration: none;
+    color: hsl(0, 0%, 70%);
+    cursor: pointer;
+}
+.content a:hover{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.social{
+    text-align: center;
+}
+.social i{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid hsl(0, 0%, 70%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social i:hover{
+    color: hsl(176, 68%, 64%);
+    border: 2px solid hsl(176, 68%, 64%);
+}
+.end-note{
+    text-align: center;
+}
+.end-note a{
+    color: #fff;
+    text-decoration: none;
+}
+.end-note a:hover{
+    text-decoration: underline;
+    font-weight:700;
+}
+
+/* Media Queries */
+@media all and (max-width:1400px){
+    .content .tel, .content .about, .content .contact, .content .social {
+        width: 18.25%;
+    }
+}
+@media all and (max-width:1180px){
+    .content .about, .content .contact {
+        width: 15.25%;
+    }
+    .content .tel {
+        width: 25.25%;
+    }
+    footer .content>div{
+        margin-right: 1rem;
+    }
+}
+@media all and (max-width: 768px){
+    /* .navUL{
+        display: none;
+        flex-direction: column;
+        width: 150px;
+        background: #000;
+        position: absolute;
+        transform: translate(-35%, 70%);
+        padding: 10px;
+        padding-left: 1rem;
+        transition: all 0.5s ease-in-out;
+        z-index: 10;
+    }
+    .navUL li{
+        padding: 10px;
+    }
+    .navUL li:hover{
+        width: 100%;
+    }
+    .navUL.show{
+        display: flex;
+    }
+    #hamburger{
+        display: block;
+        margin-left: 2rem;
+    } */
+    .menubar img{
+        width: 7rem;
+        height: auto;
+    }
+    .menubar{
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }
+    .menubar .logo{
+        margin-left: 1rem;
+    }
+    p{
+        font-size: 16px;
+    }
+    .section{
+        margin: auto;
+    }
+    .get-started{
+        width: 100%;
+    }
+    .above-col{
+        flex-direction: column;
+        width: 100%;
+    }
+    .middle{
+        width: 90%;
+        flex-direction: column;
+    }
+    .mid-content{
+        width: 100%;
+    }
+    #productive h3{
+        padding-right: 0;
+    }
+    /* .testimonial{
+        margin-bottom: 15rem;
+    } */
+    .testimonial>div{
+        flex-direction: column;
+        width: 70%;
+        margin: 0 3rem;
+    }
+    .block{
+        transform: translate(5.5rem, -20%);
+    }
+    .subscribe{
+        width: 80%;
+        position: relative;
+        transform: translate(0%, 50%);
+    }
+    .subscribe p{
+        padding: 1rem 0;
+    }
+    .subscribe .input{
+        flex-direction: column;
+
+    }
+    .subscribe button, .email{
+        margin: 1rem auto;
+    }
+    .subscribe .email{
+        padding: .1rem 1.5rem;
+    }
+    .subscribe button{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+    }
+    footer{
+        width: 100%;
+        margin: 0 auto;
+        margin: 2rem auto;
+        padding-top: 15rem;
+    }
+    footer .content{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    footer .content>div{
+        margin: 2rem 0;
+    }
+    .content .location, .content .tel, .content .about, .content .contact, .content .social{
+        width: 80%;
+        
+    }
+    .content .social{
+        width: 100%;
+        padding: 2rem;
+    }
+}
+@media all and (max-width: 600px){
+    .section{
+        width: 100%;
+    }
+    .menubar{
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+    .menubar .logo{
+        margin-left: 1rem;
+    }
+    .menubar img{
+        width: 5rem;
+        height: auto;
+    }
+    .get-started h3{
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .get-started p{
+        font-size: 12px;
+        padding: 0 1.5rem;
+    }
+    .get-started button{
+        width: 70%;
+        padding: 0.8rem;
+    }
+    .above{
+        padding: 0;
+    }
+    .above-col{
+        width: 100%;
+    }
+    .above p{
+        padding-left: 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    .features{
+        width: 100%;
+        margin: 1rem auto 5rem;
+        padding: 0;
+    }
+
+    .middle{
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .mid-content{
+        width: 100%;
+        padding: 0;
+    }
+    .mid-content p{
+        font-size: 12px;
+    }
+    #productive h3{
+        padding-right: 0;
+        font-size: 14px;
+    }
+    /* .testimonial{
+        border: 1px solid red;
+    } */
+    .monial{
+        margin: 1rem auto;
+        
+    }
+    .monial p{
+        font-size: 12px;
+    }
+    .testimonial>div{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-right: 1.5rem;
+    }
+    .block{
+        transform: translate(1.5rem, -20%);
+    }
+    .subscribe{
+        width: 95%;
+        padding: 1rem;
+    }
+    .subscribe p{
+        padding: 1rem 0;
+        font-size: 14px;
+    }
+    .subscribe h2{
+        font-size: 16px;
+    }
+    .subscribe .input{
+        flex-direction: column;
+
+    }
+    .subscribe button, .email{
+        margin: 1rem auto;
+    }
+    .subscribe .email{
+        padding: 0.01rem 1.5rem;
+    }
+    .subscribe button{
+        width: 100%;
+        padding: 1rem;
+        font-size: 14px;
+    }
+    footer{
+        width: 100%;
+        margin: 1rem auto;
+        padding: 2rem 2rem;
+        padding-top: 12rem;
+
+    }
+    .footer img{
+        width: 8rem;
+        height: auto;
+    }
+    footer .content{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    footer .content>div{
+        margin: 2rem 0;
+
+    }
+    .content .location, .content .tel, .content .about, .content .contact, .content .social{
+        width: 100%;
+        
+    }
+    .content .social{
+        width: 100%;
+        padding: 2rem;
+    }
+}
+@media all and (max-width: 376px){
+    .section{
+        width: 100%;
+    }
+    .menubar{
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+    .menubar .logo{
+        margin-left: 1rem;
+    }
+    .menubar img{
+        width: 5rem;
+        height: auto;
+    }
+    .get-started h3{
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .get-started p{
+        font-size: 12px;
+        padding: 0 1.5rem;
+    }
+    .get-started button{
+        width: 70%;
+        padding: 0.8rem;
+    }
+    .above{
+        padding: 0;
+    }
+    .above-col{
+        width: 100%;
+    }
+    .above p{
+        padding-left: 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    .features{
+        width: 100%;
+        margin: 1rem auto 5rem;
+        padding: 0;
+    }
+
+    .middle{
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .mid-content{
+        width: 100%;
+        padding: 0;
+    }
+    .mid-content p{
+        font-size: 12px;
+    }
+    #productive h3{
+        padding-right: 0;
+        font-size: 14px;
+    }
+    /* .testimonial{
+        border: 1px solid red;
+    } */
+    .monial{
+        margin: 1rem auto;
+        
+    }
+    .monial p{
+        font-size: 12px;
+    }
+    .testimonial>div{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-right: 1.5rem;
+    }
+    .block{
+        transform: translate(1.5rem, -20%);
+    }
+    .subscribe{
+        width: 95%;
+        padding: 1rem;
+    }
+    .subscribe p{
+        padding: 1rem 0 0 0;
+        font-size: 12px;
+    }
+    .subscribe h2{
+        font-size: 16px;
+    }
+    .subscribe .input{
+        flex-direction: column;
+
+    }
+    .subscribe button, .email{
+        margin: 1rem auto;
+    }
+    .subscribe .email{
+        padding: 0.01rem 1.5rem;
+    }
+    .subscribe button{
+        width: 100%;
+        padding: 1rem;
+        font-size: 14px;
+    }
+    footer{
+        width: 100%;
+        margin: 1rem auto;
+        padding: 2rem 2rem;
+        padding-top: 12rem;
+
+    }
+    .footer img{
+        width: 8rem;
+        height: auto;
+    }
+    footer .content{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    footer .content>div{
+        margin: 2rem 0;
+
+    }
+    .content .location, .content .tel, .content .about, .content .contact, .content .social{
+        width: 100%;
+        
+    }
+    .content .social{
+        width: 100%;
+        padding: 2rem;
+    }
+}
