@@ -50,14 +50,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
+- [flexbox]
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -71,17 +67,8 @@ To see how you can add code snippets, see below:
 ```css
 .proud-of-this-css {
   color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -98,14 +85,20 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Lms.tetrahedral.co](https://lms.terrahq.co)
+- Frontend Mentor - [@Faozziyyah DAud](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@sidehustleinternship]
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+ OMOTOSHO STEPHEN SH-IT-0008219
+ OYETUNJI EBUNOLUWA SH-IT-0146884
+ ABDULAZEEZ ABDULSAMAD SH-IT-0104545
+ PRECIOUS PUPU SH-IT-0065508
+ MAYOWA ANISE SH-IT-0073734
+ JOHN BOBAI ILIYA SH-IT-0005224
+ ANYANWU WISDOM SH-IT-0048019
+ ADENIJI FOLARIN SH-IT-0132078
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
