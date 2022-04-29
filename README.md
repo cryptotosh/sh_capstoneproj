@@ -1,4 +1,4 @@
-# SideHustle - Fylo dark theme landing page solution
+# SideHustle - Capstone Project for Fylo dark theme landing page solution
 
 This is the solution to the SideHustle cohort 5.0 internship capstone project. The Fylo dark theme landing page challenges our abilities on what we've learnt so far, it also improves our coding skills by building realistic projects. 
 
@@ -30,9 +30,9 @@ Users will be able to:
 
 ### Screenshot
 
-[Dektop view](./screenshot/desktop%20view.png)
-[Movile view](./screenshot/mobile%20view_taken%20on%20pc.png)
-[Mobile view2](./screenshot/screenshot%20from%20mobile%20phone.jpeg)
+ - [Dektop view](./screenshot/desktop%20view.png)
+ - [Movile view](./screenshot/mobile%20view_taken%20on%20pc.png)
+ - [Mobile view2](./screenshot/screenshot%20from%20mobile%20phone.jpeg)
 
 ### Links
 
