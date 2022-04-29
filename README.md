@@ -1,6 +1,6 @@
-# Frontend Mentor - Fylo dark theme landing page solution
+# SideHustle - Fylo dark theme landing page solution
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is the solution to the SideHustle cohort 5.0 internship capstone project. The Fylo dark theme landing page challenges our abilities on what we've learnt so far, it also improves our coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -8,69 +8,74 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [Our process](#our-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [What we learned](#what-we-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This is the solution to the SideHustle cohort 5.0 internship capstone project. The Fylo dark theme landing page challenges our abilities on what we've learnt so far, it also improves our coding skills by building realistic projects.
+The interns were grouped into numbers of groups, this will enables us to leanr oncollaboration and team-work
+This project was carried out by [GROUP 105](#group-members)
 
 ### The challenge
 
-Users should be able to:
+Users will be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+[Dektop view](./screenshot/desktop%20view.png)
+[Movile view](./screenshot/mobile%20view_taken%20on%20pc.png)
+[Mobile view2](./screenshot/screenshot%20from%20mobile%20phone.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/cryptotosh/sh_capstoneproj)
+- Live Site URL: [Netlify](https://toshit-shcapstoneproj1.netlify.app)
+- Live Site URL: [Github](https://cryptotosh.github.io/sh_capstoneproj/)
 
-## My process
-
+## Our process
+The project was designed by the group's members;
+We shared every section of the page within ourselves, sent to the group lead who collated and refined the entire page
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
+- CSS Flexbox
 - [Styled Components](https://styled-components.com/) - For styles
-- [flexbox]
 
 
-### What I learned
+### What we learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+ - We learnt more about flexbox (we all decided to go with flexbox instead of grid).
+ - We learnt more about git, github and it usage
+   - Learnt on how to use material icons from frontawesome
 
-To see how you can add code snippets, see below:
+Some of our code snippets are seen below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<ul class="navUL">
+    <li><a href="#favourites">favourites</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#signin">sign in</a></li>
+</ul>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-
-
-
-### Continued development
+footer{
+    width: 100%;
+    background: hsl(216, 53%, 9%);
+    padding: 10rem 3rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+```
+### Useful resources
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
@@ -78,27 +83,31 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+ - [Getting started with Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) - This helped us to setup git using gitbash
+ - [Stling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists) - We learnt how to style list items
+  - ## FlexBox
+   - [CSS Flex Responsiveness](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - Learnt flebox responsiveness from here
+    - [Details on Flexbox](https://www.internetingishard.com/html-and-css/flexbox/#:~:text=The%20first%20step%20in%20using%20flexbox%20is%20to,with%20flexbox%20instead%20of%20the%20default%20box%20model.) - Learnt more of flexbox here
+    - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.
 
 ## Author
-
-- Website - [Lms.tetrahedral.co](https://lms.terrahq.co)
-- Frontend Mentor - [@Faozziyyah DAud](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@sidehustleinternship]
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+The project was designed by Group 105 HTML+CSS+JS, SH cohort 5.0
+## Group-members
+ - OMOTOSHO STEPHEN SH-IT-0008219
+ - OYETUNJI EBUNOLUWA SH-IT-0146884
+ - ABDULAZEEZ ABDULSAMAD SH-IT-0104545
+ - PRECIOUS PUPU SH-IT-0065508
+ - MAYOWA ANISE SH-IT-0073734
+ - JOHN BOBAI ILIYA SH-IT-0005224
+ - ANYANWU WISDOM SH-IT-0048019
+ - ADENIJI FOLARIN SH-IT-0132078
 
 ## Acknowledgments
- OMOTOSHO STEPHEN SH-IT-0008219
- OYETUNJI EBUNOLUWA SH-IT-0146884
- ABDULAZEEZ ABDULSAMAD SH-IT-0104545
- PRECIOUS PUPU SH-IT-0065508
- MAYOWA ANISE SH-IT-0073734
- JOHN BOBAI ILIYA SH-IT-0005224
- ANYANWU WISDOM SH-IT-0048019
- ADENIJI FOLARIN SH-IT-0132078
+We would like to give a shoutout to ourselves, for coming up with this result after spending just 2 weeks from the 6 weeks internship.
+We would also love to give a shoutout to these dudes for their constant assistance and mentorship
+ - [Dev Dollypee](https://github.com/dollypee)
+ - [Dev Thrive](https://github.com/ccanyanwu)
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+**SEE US AT THE TOP**
+
+THANKS FORS HIGHLIGHTING!
